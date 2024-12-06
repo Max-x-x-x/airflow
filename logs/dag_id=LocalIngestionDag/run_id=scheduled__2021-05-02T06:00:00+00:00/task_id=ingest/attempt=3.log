@@ -1,0 +1,35 @@
+[2024-12-05T20:40:42.634+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-05T20:40:42.676+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: LocalIngestionDag.ingest scheduled__2021-05-02T06:00:00+00:00 [queued]>
+[2024-12-05T20:40:42.687+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: LocalIngestionDag.ingest scheduled__2021-05-02T06:00:00+00:00 [queued]>
+[2024-12-05T20:40:42.689+0000] {taskinstance.py:2866} INFO - Starting attempt 3 of 3
+[2024-12-05T20:40:42.720+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): ingest> on 2021-05-02 06:00:00+00:00
+[2024-12-05T20:40:42.727+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=831) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-05T20:40:42.731+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'LocalIngestionDag', 'ingest', 'scheduled__2021-05-02T06:00:00+00:00', '--job-id', '43', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmp3tm_5hhj']
+[2024-12-05T20:40:42.733+0000] {standard_task_runner.py:72} INFO - Started process 839 to run task
+[2024-12-05T20:40:42.734+0000] {standard_task_runner.py:105} INFO - Job 43: Subtask ingest
+[2024-12-05T20:40:42.858+0000] {task_command.py:467} INFO - Running <TaskInstance: LocalIngestionDag.ingest scheduled__2021-05-02T06:00:00+00:00 [running]> on host cf87bc668ac5
+[2024-12-05T20:40:43.010+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='LocalIngestionDag' AIRFLOW_CTX_TASK_ID='ingest' AIRFLOW_CTX_EXECUTION_DATE='2021-05-02T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2021-05-02T06:00:00+00:00'
+[2024-12-05T20:40:43.015+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-05T20:40:43.034+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-05T20:40:43.040+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'ls /opt/***']
+[2024-12-05T20:40:43.048+0000] {subprocess.py:99} INFO - Output:
+[2024-12-05T20:40:43.056+0000] {subprocess.py:106} INFO - ***.cfg
+[2024-12-05T20:40:43.058+0000] {subprocess.py:106} INFO - config
+[2024-12-05T20:40:43.063+0000] {subprocess.py:106} INFO - dags
+[2024-12-05T20:40:43.065+0000] {subprocess.py:106} INFO - logs
+[2024-12-05T20:40:43.067+0000] {subprocess.py:106} INFO - output.parquet
+[2024-12-05T20:40:43.068+0000] {subprocess.py:106} INFO - output_2021-01.parquet
+[2024-12-05T20:40:43.070+0000] {subprocess.py:106} INFO - output_2021-02.parquet
+[2024-12-05T20:40:43.071+0000] {subprocess.py:106} INFO - output_2021-03.parquet
+[2024-12-05T20:40:43.072+0000] {subprocess.py:106} INFO - output_2021-04.parquet
+[2024-12-05T20:40:43.074+0000] {subprocess.py:106} INFO - output_2021-05.parquet
+[2024-12-05T20:40:43.078+0000] {subprocess.py:106} INFO - plugins
+[2024-12-05T20:40:43.084+0000] {subprocess.py:106} INFO - requirements.txt
+[2024-12-05T20:40:43.085+0000] {subprocess.py:106} INFO - webserver_config.py
+[2024-12-05T20:40:43.086+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-05T20:40:43.571+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-05T20:40:43.572+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=ingest, run_id=scheduled__2021-05-02T06:00:00+00:00, execution_date=20210502T060000, start_date=20241205T204042, end_date=20241205T204043
+[2024-12-05T20:40:43.746+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-05T20:40:43.786+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

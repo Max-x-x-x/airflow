@@ -1,0 +1,24 @@
+[2024-12-05T18:09:22.069+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-05T18:09:22.078+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: LocalIngestionDag.ingest manual__2024-12-05T18:09:20.066437+00:00 [queued]>
+[2024-12-05T18:09:22.083+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: LocalIngestionDag.ingest manual__2024-12-05T18:09:20.066437+00:00 [queued]>
+[2024-12-05T18:09:22.083+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-05T18:09:22.090+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): ingest> on 2024-12-05 18:09:20.066437+00:00
+[2024-12-05T18:09:22.093+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=1927) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-05T18:09:22.094+0000] {standard_task_runner.py:72} INFO - Started process 1928 to run task
+[2024-12-05T18:09:22.095+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'LocalIngestionDag', 'ingest', 'manual__2024-12-05T18:09:20.066437+00:00', '--job-id', '253', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpl8qg1p5m']
+[2024-12-05T18:09:22.096+0000] {standard_task_runner.py:105} INFO - Job 253: Subtask ingest
+[2024-12-05T18:09:22.126+0000] {task_command.py:467} INFO - Running <TaskInstance: LocalIngestionDag.ingest manual__2024-12-05T18:09:20.066437+00:00 [running]> on host 073dea24e113
+[2024-12-05T18:09:22.185+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='LocalIngestionDag' AIRFLOW_CTX_TASK_ID='ingest' AIRFLOW_CTX_EXECUTION_DATE='2024-12-05T18:09:20.066437+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-05T18:09:20.066437+00:00'
+[2024-12-05T18:09:22.186+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-05T18:09:22.193+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-05T18:09:22.194+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'pwd']
+[2024-12-05T18:09:22.200+0000] {subprocess.py:99} INFO - Output:
+[2024-12-05T18:09:22.201+0000] {subprocess.py:106} INFO - /tmp/***tmpks2jd5jq
+[2024-12-05T18:09:22.201+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-05T18:09:22.216+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-05T18:09:22.217+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=ingest, run_id=manual__2024-12-05T18:09:20.066437+00:00, execution_date=20241205T180920, start_date=20241205T180922, end_date=20241205T180922
+[2024-12-05T18:09:22.238+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-05T18:09:22.249+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-05T18:09:22.250+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

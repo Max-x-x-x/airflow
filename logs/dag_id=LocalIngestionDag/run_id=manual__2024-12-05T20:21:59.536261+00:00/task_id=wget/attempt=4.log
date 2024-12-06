@@ -1,0 +1,4 @@
+[2024-12-05T22:55:18.300+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-05T22:55:18.339+0000] {taskinstance.py:2603} INFO - Dependencies not met for <TaskInstance: LocalIngestionDag.wget manual__2024-12-05T20:21:59.536261+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2024-12-05T20:21:59.536261+00:00 but this is after the task's end date 2021-06-01T00:00:00+00:00.
+[2024-12-05T22:55:18.339+0000] {taskinstance.py:2603} INFO - Dependencies not met for <TaskInstance: LocalIngestionDag.wget manual__2024-12-05T20:21:59.536261+00:00 [queued]>, dependency 'Execution Date' FAILED: The execution date is 2024-12-05T20:21:59.536261+00:00 but this is after the task's DAG's end date 2021-06-01T00:00:00+00:00.
+[2024-12-05T22:55:18.341+0000] {local_task_job_runner.py:166} INFO - Task is not able to be run

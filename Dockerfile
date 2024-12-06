@@ -6,12 +6,14 @@ ENV AIRFLOW_HOME=/opt/airflow
 
 USER root
 RUN apt-get update -qq && apt-get install vim -qqq
+RUN apt-get update && apt-get install -y wget && apt-get clean
 # git gcc g++ -qqq
 
 COPY requirements.txt .
 
 USER airflow
 RUN pip install --no-cache-dir -r requirements.txt
+RUN pip install --no-cache-dir pandas sqlalchemy psycopg2-binary
 
 # Ref: https://airflow.apache.org/docs/docker-stack/recipes.html
 

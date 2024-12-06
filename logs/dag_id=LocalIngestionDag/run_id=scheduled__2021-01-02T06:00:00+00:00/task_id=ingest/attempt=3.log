@@ -1,0 +1,60 @@
+[2024-12-05T20:40:40.368+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-05T20:40:40.394+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: LocalIngestionDag.ingest scheduled__2021-01-02T06:00:00+00:00 [queued]>
+[2024-12-05T20:40:40.426+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: LocalIngestionDag.ingest scheduled__2021-01-02T06:00:00+00:00 [queued]>
+[2024-12-05T20:40:40.482+0000] {taskinstance.py:2866} INFO - Starting attempt 3 of 3
+[2024-12-05T20:40:42.380+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): ingest> on 2021-01-02 06:00:00+00:00
+[2024-12-05T20:40:42.395+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=829) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-05T20:40:42.409+0000] {standard_task_runner.py:72} INFO - Started process 837 to run task
+[2024-12-05T20:40:42.454+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'LocalIngestionDag', 'ingest', 'scheduled__2021-01-02T06:00:00+00:00', '--job-id', '42', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmp_4v9n18n']
+[2024-12-05T20:40:42.458+0000] {standard_task_runner.py:105} INFO - Job 42: Subtask ingest
+[2024-12-05T20:40:42.631+0000] {task_command.py:467} INFO - Running <TaskInstance: LocalIngestionDag.ingest scheduled__2021-01-02T06:00:00+00:00 [running]> on host cf87bc668ac5
+[2024-12-05T20:40:42.798+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='LocalIngestionDag' AIRFLOW_CTX_TASK_ID='ingest' AIRFLOW_CTX_EXECUTION_DATE='2021-01-02T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2021-01-02T06:00:00+00:00'
+[2024-12-05T20:40:42.800+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-05T20:40:42.843+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-05T20:40:42.845+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'ls /opt/***']
+[2024-12-05T20:40:42.853+0000] {subprocess.py:99} INFO - Output:
+[2024-12-05T20:40:42.855+0000] {subprocess.py:106} INFO - ***.cfg
+[2024-12-05T20:40:42.855+0000] {subprocess.py:106} INFO - config
+[2024-12-05T20:40:42.857+0000] {subprocess.py:106} INFO - dags
+[2024-12-05T20:40:42.857+0000] {subprocess.py:106} INFO - logs
+[2024-12-05T20:40:42.858+0000] {subprocess.py:106} INFO - output.parquet
+[2024-12-05T20:40:42.858+0000] {subprocess.py:106} INFO - output_2021-01.parquet
+[2024-12-05T20:40:42.859+0000] {subprocess.py:106} INFO - output_2021-02.parquet
+[2024-12-05T20:40:42.859+0000] {subprocess.py:106} INFO - output_2021-03.parquet
+[2024-12-05T20:40:42.859+0000] {subprocess.py:106} INFO - output_2021-04.parquet
+[2024-12-05T20:40:42.860+0000] {subprocess.py:106} INFO - output_2021-05.parquet
+[2024-12-05T20:40:42.860+0000] {subprocess.py:106} INFO - plugins
+[2024-12-05T20:40:42.861+0000] {subprocess.py:106} INFO - requirements.txt
+[2024-12-05T20:40:42.862+0000] {subprocess.py:106} INFO - webserver_config.py
+[2024-12-05T20:40:42.863+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-05T20:40:42.921+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-05T20:40:42.924+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=ingest, run_id=scheduled__2021-01-02T06:00:00+00:00, execution_date=20210102T060000, start_date=20241205T204040, end_date=20241205T204042
+[2024-12-05T20:40:42.966+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-05T20:40:43.017+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-05T20:40:43.019+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
+[2024-12-05T23:58:39.283+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-05T23:58:39.296+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: LocalIngestionDag.ingest scheduled__2021-01-02T06:00:00+00:00 [queued]>
+[2024-12-05T23:58:39.303+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: LocalIngestionDag.ingest scheduled__2021-01-02T06:00:00+00:00 [queued]>
+[2024-12-05T23:58:39.303+0000] {taskinstance.py:2866} INFO - Starting attempt 3 of 3
+[2024-12-05T23:58:39.312+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): ingest> on 2021-01-02 06:00:00+00:00
+[2024-12-05T23:58:39.316+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=795) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-05T23:58:39.317+0000] {standard_task_runner.py:72} INFO - Started process 798 to run task
+[2024-12-05T23:58:39.317+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'LocalIngestionDag', 'ingest', 'scheduled__2021-01-02T06:00:00+00:00', '--job-id', '26', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion_local.py', '--cfg-path', '/tmp/tmpt_ca9ood']
+[2024-12-05T23:58:39.320+0000] {standard_task_runner.py:105} INFO - Job 26: Subtask ingest
+[2024-12-05T23:58:39.347+0000] {task_command.py:467} INFO - Running <TaskInstance: LocalIngestionDag.ingest scheduled__2021-01-02T06:00:00+00:00 [running]> on host 39ecaeffba2c
+[2024-12-05T23:58:39.699+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='LocalIngestionDag' AIRFLOW_CTX_TASK_ID='ingest' AIRFLOW_CTX_EXECUTION_DATE='2021-01-02T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2021-01-02T06:00:00+00:00'
+[2024-12-05T23:58:39.703+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-05T23:58:39.711+0000] {logging_mixin.py:190} INFO - root root pgdatabase 5432 ny_taxi yellow_taxi_2021_01 /opt/***/output_2021-01.parquet
+[2024-12-05T23:58:39.738+0000] {logging_mixin.py:190} INFO - connection established, inserting data...
+[2024-12-05T23:58:58.273+0000] {job.py:229} INFO - Heartbeat recovered after 13.92 seconds
+[2024-12-06T00:00:19.853+0000] {logging_mixin.py:190} INFO - inserted, took 100.113 second
+[2024-12-06T00:00:19.915+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-06T00:00:20.018+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T00:00:20.021+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=LocalIngestionDag, task_id=ingest, run_id=scheduled__2021-01-02T06:00:00+00:00, execution_date=20210102T060000, start_date=20241205T235839, end_date=20241206T000020
+[2024-12-06T00:00:20.280+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T00:00:20.356+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T00:00:20.358+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

@@ -67,6 +67,12 @@ x-airflow-common:
     GCP_PROJECT_ID: 'terraform-demo-439718'
     GCP_GCS_BUCKET: 'airflow_gcp_max'
 
+    PG_HOST: ${PG_HOST}
+    PG_USER: ${PG_USER}
+    PG_PASSWORD: ${PG_PASSWORD}
+    PG_PORT: ${PG_PORT}
+    PG_DATABASE: ${PG_DATABASE}
+
     # yamllint disable rule:line-length
     # Use simple http server on scheduler for health checks
     # See https://airflow.apache.org/docs/apache-airflow/stable/administration-and-deployment/logging-monitoring/check-health.html#scheduler-health-check-server
