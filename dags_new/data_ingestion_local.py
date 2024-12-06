@@ -16,10 +16,12 @@ PG_PORT = os.getenv('PG_PORT')
 PG_DATABASE = os.getenv('PG_DATABASE')
 
 local_workflow = DAG(
-    "LocalIngestionDag",
+    "LocalIngestionDag_v02",
     schedule_interval = "0 6 2 * *",
-    start_date = datetime(2021,1,1),
-    end_date = datetime(2021,2,3)
+    catchup=True,
+    max_active_runs=3,
+    start_date = datetime(2024,1,1),
+    end_date = datetime(2024,3,1),
 )
 
 URL_PREFIX = 'https://d37ci6vzurychx.cloudfront.net/trip-data/'

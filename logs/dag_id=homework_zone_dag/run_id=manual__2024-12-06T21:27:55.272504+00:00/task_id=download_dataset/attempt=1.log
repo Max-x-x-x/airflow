@@ -1,0 +1,34 @@
+[2024-12-06T21:28:02.124+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T21:28:02.142+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: homework_zone_dag.download_dataset manual__2024-12-06T21:27:55.272504+00:00 [queued]>
+[2024-12-06T21:28:02.154+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: homework_zone_dag.download_dataset manual__2024-12-06T21:27:55.272504+00:00 [queued]>
+[2024-12-06T21:28:02.155+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-06T21:28:02.171+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): download_dataset> on 2024-12-06 21:27:55.272504+00:00
+[2024-12-06T21:28:02.181+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=5234) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T21:28:02.183+0000] {standard_task_runner.py:72} INFO - Started process 5235 to run task
+[2024-12-06T21:28:02.184+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'homework_zone_dag', 'download_dataset', 'manual__2024-12-06T21:27:55.272504+00:00', '--job-id', '144', '--raw', '--subdir', 'DAGS_FOLDER/homework_zone_dag.py', '--cfg-path', '/tmp/tmphg42ugw2']
+[2024-12-06T21:28:02.189+0000] {standard_task_runner.py:105} INFO - Job 144: Subtask download_dataset
+[2024-12-06T21:28:02.386+0000] {task_command.py:467} INFO - Running <TaskInstance: homework_zone_dag.download_dataset manual__2024-12-06T21:27:55.272504+00:00 [running]> on host 39ecaeffba2c
+[2024-12-06T21:28:02.570+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='homework_zone_dag' AIRFLOW_CTX_TASK_ID='download_dataset' AIRFLOW_CTX_EXECUTION_DATE='2024-12-06T21:27:55.272504+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-06T21:27:55.272504+00:00'
+[2024-12-06T21:28:02.571+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T21:28:02.584+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-06T21:28:02.585+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'wget https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv -O /opt/***/zones.csv']
+[2024-12-06T21:28:02.599+0000] {subprocess.py:99} INFO - Output:
+[2024-12-06T21:28:02.657+0000] {subprocess.py:106} INFO - --2024-12-06 21:28:02--  https://d37ci6vzurychx.cloudfront.net/misc/taxi_zone_lookup.csv
+[2024-12-06T21:28:02.726+0000] {subprocess.py:106} INFO - Resolving d37ci6vzurychx.cloudfront.net (d37ci6vzurychx.cloudfront.net)... 18.154.99.225, 18.154.99.47, 18.154.99.177, ...
+[2024-12-06T21:28:02.745+0000] {subprocess.py:106} INFO - Connecting to d37ci6vzurychx.cloudfront.net (d37ci6vzurychx.cloudfront.net)|18.154.99.225|:443... connected.
+[2024-12-06T21:28:02.853+0000] {subprocess.py:106} INFO - HTTP request sent, awaiting response... 200 OK
+[2024-12-06T21:28:02.854+0000] {subprocess.py:106} INFO - Length: 12331 (12K) [text/csv]
+[2024-12-06T21:28:02.854+0000] {subprocess.py:106} INFO - Saving to: ‘/opt/***/zones.csv’
+[2024-12-06T21:28:02.855+0000] {subprocess.py:106} INFO - 
+[2024-12-06T21:28:02.855+0000] {subprocess.py:106} INFO -      0K .......... ..                                         100% 22.3M=0.001s
+[2024-12-06T21:28:02.855+0000] {subprocess.py:106} INFO - 
+[2024-12-06T21:28:02.856+0000] {subprocess.py:106} INFO - 2024-12-06 21:28:02 (22.3 MB/s) - ‘/opt/***/zones.csv’ saved [12331/12331]
+[2024-12-06T21:28:02.856+0000] {subprocess.py:106} INFO - 
+[2024-12-06T21:28:02.856+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-06T21:28:02.877+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T21:28:02.880+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=homework_zone_dag, task_id=download_dataset, run_id=manual__2024-12-06T21:27:55.272504+00:00, execution_date=20241206T212755, start_date=20241206T212802, end_date=20241206T212802
+[2024-12-06T21:28:02.904+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T21:28:03.039+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T21:28:03.042+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

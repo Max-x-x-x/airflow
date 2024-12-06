@@ -16,8 +16,11 @@ def ingest_callable(user, password, host, port, db, table_name, file):
     print("connection established, inserting data...")
 
     t_start = time()
-    df = pd.read_parquet(file)
 
+    if file.endswith(".parquet"):
+        df = pd.read_parquet(file)
+    else:
+        df = pd.read_csv(file)
     df.tpep_pickup_datetime = pd.to_datetime(df.tpep_pickup_datetime)
     df.tpep_dropoff_datetime = pd.to_datetime(df.tpep_dropoff_datetime)
 

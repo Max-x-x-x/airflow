@@ -1,0 +1,22 @@
+[2024-12-06T21:28:09.497+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-06T21:28:09.507+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: homework_zone_dag.bigquery_external_table manual__2024-12-06T21:27:55.272504+00:00 [queued]>
+[2024-12-06T21:28:09.513+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: homework_zone_dag.bigquery_external_table manual__2024-12-06T21:27:55.272504+00:00 [queued]>
+[2024-12-06T21:28:09.513+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-06T21:28:09.519+0000] {taskinstance.py:2889} INFO - Executing <Task(BigQueryCreateExternalTableOperator): bigquery_external_table> on 2024-12-06 21:27:55.272504+00:00
+[2024-12-06T21:28:09.529+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=5241) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-06T21:28:09.530+0000] {standard_task_runner.py:72} INFO - Started process 5242 to run task
+[2024-12-06T21:28:09.531+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'homework_zone_dag', 'bigquery_external_table', 'manual__2024-12-06T21:27:55.272504+00:00', '--job-id', '146', '--raw', '--subdir', 'DAGS_FOLDER/homework_zone_dag.py', '--cfg-path', '/tmp/tmprawt6hj0']
+[2024-12-06T21:28:09.536+0000] {standard_task_runner.py:105} INFO - Job 146: Subtask bigquery_external_table
+[2024-12-06T21:28:09.569+0000] {task_command.py:467} INFO - Running <TaskInstance: homework_zone_dag.bigquery_external_table manual__2024-12-06T21:27:55.272504+00:00 [running]> on host 39ecaeffba2c
+[2024-12-06T21:28:09.620+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='homework_zone_dag' AIRFLOW_CTX_TASK_ID='bigquery_external_table' AIRFLOW_CTX_EXECUTION_DATE='2024-12-06T21:27:55.272504+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-12-06T21:27:55.272504+00:00'
+[2024-12-06T21:28:09.621+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-06T21:28:09.631+0000] {crypto.py:82} WARNING - empty cryptography key - values will not be stored encrypted.
+[2024-12-06T21:28:09.632+0000] {connection.py:277} WARNING - Connection schemes (type: google_cloud_platform) shall not contain '_' according to RFC3986.
+[2024-12-06T21:28:09.632+0000] {base.py:84} INFO - Retrieving connection 'google_cloud_default'
+[2024-12-06T21:28:11.010+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-06T21:28:11.012+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=homework_zone_dag, task_id=bigquery_external_table, run_id=manual__2024-12-06T21:27:55.272504+00:00, execution_date=20241206T212755, start_date=20241206T212809, end_date=20241206T212811
+[2024-12-06T21:28:11.099+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-06T21:28:11.130+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-06T21:28:11.131+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
