@@ -1,0 +1,64 @@
+[2024-12-09T23:56:50.437+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-09T23:56:50.473+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: homework_dag_v2.download_dataset scheduled__2022-04-01T00:00:00+00:00 [queued]>
+[2024-12-09T23:56:50.488+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: homework_dag_v2.download_dataset scheduled__2022-04-01T00:00:00+00:00 [queued]>
+[2024-12-09T23:56:50.491+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-09T23:56:50.547+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): download_dataset> on 2022-04-01 00:00:00+00:00
+[2024-12-09T23:56:50.555+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=12129) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-09T23:56:50.568+0000] {standard_task_runner.py:72} INFO - Started process 12145 to run task
+[2024-12-09T23:56:50.557+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'homework_dag_v2', 'download_dataset', 'scheduled__2022-04-01T00:00:00+00:00', '--job-id', '204', '--raw', '--subdir', 'DAGS_FOLDER/homework_dag_v2.py', '--cfg-path', '/tmp/tmpmlm7r1_q']
+[2024-12-09T23:56:50.573+0000] {standard_task_runner.py:105} INFO - Job 204: Subtask download_dataset
+[2024-12-09T23:56:50.725+0000] {task_command.py:467} INFO - Running <TaskInstance: homework_dag_v2.download_dataset scheduled__2022-04-01T00:00:00+00:00 [running]> on host 39ecaeffba2c
+[2024-12-09T23:56:50.837+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='homework_dag_v2' AIRFLOW_CTX_TASK_ID='download_dataset' AIRFLOW_CTX_EXECUTION_DATE='2022-04-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-04-01T00:00:00+00:00'
+[2024-12-09T23:56:50.847+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-09T23:56:50.875+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-09T23:56:50.878+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'wget https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2022-04.parquet -O /opt/***/green_tripdata_2022-04.parquet']
+[2024-12-09T23:56:50.893+0000] {subprocess.py:99} INFO - Output:
+[2024-12-09T23:56:50.898+0000] {subprocess.py:106} INFO - --2024-12-09 23:56:50--  https://d37ci6vzurychx.cloudfront.net/trip-data/green_tripdata_2022-04.parquet
+[2024-12-09T23:56:50.912+0000] {subprocess.py:106} INFO - Resolving d37ci6vzurychx.cloudfront.net (d37ci6vzurychx.cloudfront.net)... 18.173.251.90, 18.173.251.37, 18.173.251.156, ...
+[2024-12-09T23:56:50.963+0000] {subprocess.py:106} INFO - Connecting to d37ci6vzurychx.cloudfront.net (d37ci6vzurychx.cloudfront.net)|18.173.251.90|:443... connected.
+[2024-12-09T23:56:51.495+0000] {subprocess.py:106} INFO - HTTP request sent, awaiting response... 200 OK
+[2024-12-09T23:56:51.497+0000] {subprocess.py:106} INFO - Length: 1570363 (1.5M) [binary/octet-stream]
+[2024-12-09T23:56:51.497+0000] {subprocess.py:106} INFO - Saving to: ‘/opt/***/green_tripdata_2022-04.parquet’
+[2024-12-09T23:56:51.498+0000] {subprocess.py:106} INFO - 
+[2024-12-09T23:56:51.566+0000] {subprocess.py:106} INFO -      0K .......... .......... .......... .......... ..........  3%  700K 2s
+[2024-12-09T23:56:51.629+0000] {subprocess.py:106} INFO -     50K .......... .......... .......... .......... ..........  6%  878K 2s
+[2024-12-09T23:56:51.673+0000] {subprocess.py:106} INFO -    100K .......... .......... .......... .......... ..........  9% 1005K 2s
+[2024-12-09T23:56:51.694+0000] {subprocess.py:106} INFO -    150K .......... .......... .......... .......... .......... 13% 2.35M 1s
+[2024-12-09T23:56:51.711+0000] {subprocess.py:106} INFO -    200K .......... .......... .......... .......... .......... 16% 2.97M 1s
+[2024-12-09T23:56:51.725+0000] {subprocess.py:106} INFO -    250K .......... .......... .......... .......... .......... 19% 3.46M 1s
+[2024-12-09T23:56:51.745+0000] {subprocess.py:106} INFO -    300K .......... .......... .......... .......... .......... 22% 2.40M 1s
+[2024-12-09T23:56:51.755+0000] {subprocess.py:106} INFO -    350K .......... .......... .......... .......... .......... 26% 4.73M 1s
+[2024-12-09T23:56:51.765+0000] {subprocess.py:106} INFO -    400K .......... .......... .......... .......... .......... 29% 4.76M 1s
+[2024-12-09T23:56:51.774+0000] {subprocess.py:106} INFO -    450K .......... .......... .......... .......... .......... 32% 6.04M 1s
+[2024-12-09T23:56:51.779+0000] {subprocess.py:106} INFO -    500K .......... .......... .......... .......... .......... 35% 11.7M 1s
+[2024-12-09T23:56:51.785+0000] {subprocess.py:106} INFO -    550K .......... .......... .......... .......... .......... 39% 6.68M 0s
+[2024-12-09T23:56:51.790+0000] {subprocess.py:106} INFO -    600K .......... .......... .......... .......... .......... 42% 9.08M 0s
+[2024-12-09T23:56:51.797+0000] {subprocess.py:106} INFO -    650K .......... .......... .......... .......... .......... 45% 8.07M 0s
+[2024-12-09T23:56:51.806+0000] {subprocess.py:106} INFO -    700K .......... .......... .......... .......... .......... 48% 5.16M 0s
+[2024-12-09T23:56:51.811+0000] {subprocess.py:106} INFO -    750K .......... .......... .......... .......... .......... 52% 9.18M 0s
+[2024-12-09T23:56:51.816+0000] {subprocess.py:106} INFO -    800K .......... .......... .......... .......... .......... 55% 11.1M 0s
+[2024-12-09T23:56:51.820+0000] {subprocess.py:106} INFO -    850K .......... .......... .......... .......... .......... 58% 10.3M 0s
+[2024-12-09T23:56:51.824+0000] {subprocess.py:106} INFO -    900K .......... .......... .......... .......... .......... 61% 13.1M 0s
+[2024-12-09T23:56:51.828+0000] {subprocess.py:106} INFO -    950K .......... .......... .......... .......... .......... 65% 12.3M 0s
+[2024-12-09T23:56:51.833+0000] {subprocess.py:106} INFO -   1000K .......... .......... .......... .......... .......... 68% 13.9M 0s
+[2024-12-09T23:56:51.836+0000] {subprocess.py:106} INFO -   1050K .......... .......... .......... .......... .......... 71% 12.5M 0s
+[2024-12-09T23:56:51.838+0000] {subprocess.py:106} INFO -   1100K .......... .......... .......... .......... .......... 74% 19.8M 0s
+[2024-12-09T23:56:51.841+0000] {subprocess.py:106} INFO -   1150K .......... .......... .......... .......... .......... 78% 18.3M 0s
+[2024-12-09T23:56:51.844+0000] {subprocess.py:106} INFO -   1200K .......... .......... .......... .......... .......... 81% 13.4M 0s
+[2024-12-09T23:56:51.853+0000] {subprocess.py:106} INFO -   1250K .......... .......... .......... .......... .......... 84% 5.70M 0s
+[2024-12-09T23:56:51.857+0000] {subprocess.py:106} INFO -   1300K .......... .......... .......... .......... .......... 88% 11.2M 0s
+[2024-12-09T23:56:51.867+0000] {subprocess.py:106} INFO -   1350K .......... .......... .......... .......... .......... 91% 6.34M 0s
+[2024-12-09T23:56:51.895+0000] {subprocess.py:106} INFO -   1400K .......... .......... .......... .......... .......... 94% 1.66M 0s
+[2024-12-09T23:56:51.910+0000] {subprocess.py:106} INFO -   1450K .......... .......... .......... .......... .......... 97% 4.89M 0s
+[2024-12-09T23:56:51.913+0000] {subprocess.py:106} INFO -   1500K .......... .......... .......... ...                  100% 13.6M=0.4s
+[2024-12-09T23:56:51.918+0000] {subprocess.py:106} INFO - 
+[2024-12-09T23:56:51.921+0000] {subprocess.py:106} INFO - 2024-12-09 23:56:51 (3.64 MB/s) - ‘/opt/***/green_tripdata_2022-04.parquet’ saved [1570363/1570363]
+[2024-12-09T23:56:51.923+0000] {subprocess.py:106} INFO - 
+[2024-12-09T23:56:51.925+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-09T23:56:52.092+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-09T23:56:52.093+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=homework_dag_v2, task_id=download_dataset, run_id=scheduled__2022-04-01T00:00:00+00:00, execution_date=20220401T000000, start_date=20241209T235650, end_date=20241209T235652
+[2024-12-09T23:56:52.139+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-09T23:56:52.180+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-09T23:56:52.183+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

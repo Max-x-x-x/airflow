@@ -4503,3 +4503,906 @@ NameError: name 'local_workflow' is not defined. Did you mean: 'local_workflow_v
 [2024-12-06T22:21:39.423+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:21:39.423+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-12-06T22:21:39.439+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:21:39.439+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
 [2024-12-06T22:21:39.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.065 seconds
+[2024-12-06T22:22:09.895+0000] {processor.py:186} INFO - Started process (PID=5878) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:22:09.896+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:22:09.897+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:22:09.897+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:22:09.908+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:22:09.922+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:22:09.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:22:09.932+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:22:09.932+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:22:09.940+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2024-12-06T22:22:40.672+0000] {processor.py:186} INFO - Started process (PID=5887) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:22:40.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:22:40.674+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:22:40.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:22:40.683+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:22:40.698+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:22:40.698+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:22:40.710+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:22:40.710+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:22:40.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.053 seconds
+[2024-12-06T22:23:11.232+0000] {processor.py:186} INFO - Started process (PID=5896) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:23:11.233+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:23:11.234+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:23:11.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:23:11.244+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:23:11.257+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:23:11.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:23:11.269+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:23:11.268+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:23:11.277+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T22:23:41.884+0000] {processor.py:186} INFO - Started process (PID=5905) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:23:41.886+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:23:41.886+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:23:41.886+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:23:41.894+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:23:41.910+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:23:41.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:23:41.924+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:23:41.924+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:23:41.938+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.057 seconds
+[2024-12-06T22:24:12.344+0000] {processor.py:186} INFO - Started process (PID=5914) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:24:12.345+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:24:12.346+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:24:12.346+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:24:12.356+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:24:12.371+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:24:12.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:24:12.389+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:24:12.389+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:24:12.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.061 seconds
+[2024-12-06T22:24:43.395+0000] {processor.py:186} INFO - Started process (PID=5923) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:24:43.396+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:24:43.398+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:24:43.397+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:24:43.409+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:24:43.429+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:24:43.429+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:24:43.443+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:24:43.443+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:24:43.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.068 seconds
+[2024-12-06T22:25:13.765+0000] {processor.py:186} INFO - Started process (PID=5932) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:25:13.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:25:13.766+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:25:13.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:25:13.774+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:25:13.787+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:25:13.787+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:25:13.799+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:25:13.799+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:25:13.807+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2024-12-06T22:25:44.227+0000] {processor.py:186} INFO - Started process (PID=5941) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:25:44.228+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:25:44.229+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:25:44.229+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:25:44.237+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:25:44.253+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:25:44.253+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:25:44.266+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:25:44.266+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:25:44.275+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T22:26:14.676+0000] {processor.py:186} INFO - Started process (PID=5950) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:26:14.679+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:26:14.680+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:26:14.680+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:26:14.690+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:26:14.703+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:26:14.703+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:26:14.715+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:26:14.715+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:26:14.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.052 seconds
+[2024-12-06T22:26:45.230+0000] {processor.py:186} INFO - Started process (PID=5959) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:26:45.231+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:26:45.232+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:26:45.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:26:45.242+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:26:45.257+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:26:45.256+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:26:45.270+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:26:45.269+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:26:45.278+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.053 seconds
+[2024-12-06T22:27:15.680+0000] {processor.py:186} INFO - Started process (PID=5968) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:27:15.681+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:27:15.681+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:27:15.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:27:15.690+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:27:15.703+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:27:15.702+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:27:15.713+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:27:15.713+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:27:15.723+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2024-12-06T22:27:46.159+0000] {processor.py:186} INFO - Started process (PID=5977) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:27:46.159+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:27:46.160+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:27:46.160+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:27:46.168+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:27:46.182+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:27:46.182+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:27:46.195+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:27:46.194+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:27:46.203+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2024-12-06T22:28:16.590+0000] {processor.py:186} INFO - Started process (PID=5986) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:28:16.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:28:16.592+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:28:16.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:28:16.599+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:28:16.610+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:28:16.610+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:28:16.622+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:28:16.622+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:28:16.631+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T22:28:47.117+0000] {processor.py:186} INFO - Started process (PID=5995) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:28:47.117+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:28:47.118+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:28:47.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:28:47.125+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:28:47.140+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:28:47.140+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:28:47.155+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:28:47.154+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:28:47.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.053 seconds
+[2024-12-06T22:29:17.534+0000] {processor.py:186} INFO - Started process (PID=6004) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:29:17.534+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:29:17.535+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:29:17.535+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:29:17.543+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:29:17.557+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:29:17.557+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:29:17.569+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:29:17.569+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:29:17.577+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T22:29:48.013+0000] {processor.py:186} INFO - Started process (PID=6013) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:29:48.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:29:48.014+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:29:48.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:29:48.022+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:29:48.035+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:29:48.035+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:29:48.046+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:29:48.046+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:29:48.054+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T22:30:18.451+0000] {processor.py:186} INFO - Started process (PID=6022) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:30:18.452+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:30:18.453+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:30:18.453+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:30:18.463+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:30:18.477+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:30:18.476+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:30:18.488+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:30:18.488+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:30:18.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T22:30:49.001+0000] {processor.py:186} INFO - Started process (PID=6031) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:30:49.002+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:30:49.003+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:30:49.003+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:30:49.017+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:30:49.032+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:30:49.031+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:30:49.043+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:30:49.043+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:30:49.052+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.059 seconds
+[2024-12-06T22:31:19.505+0000] {processor.py:186} INFO - Started process (PID=6040) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:31:19.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:31:19.507+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:31:19.507+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:31:19.515+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:31:19.532+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:31:19.532+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:31:19.554+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:31:19.554+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:31:19.563+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.064 seconds
+[2024-12-06T22:31:50.060+0000] {processor.py:186} INFO - Started process (PID=6049) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:31:50.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:31:50.061+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:31:50.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:31:50.069+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:31:50.083+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:31:50.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:31:50.102+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:31:50.101+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:31:50.111+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.055 seconds
+[2024-12-06T22:32:20.530+0000] {processor.py:186} INFO - Started process (PID=6058) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:32:20.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:32:20.532+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:32:20.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:32:20.542+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:32:20.557+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:32:20.556+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:32:20.570+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:32:20.569+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:32:20.579+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.058 seconds
+[2024-12-06T22:32:50.985+0000] {processor.py:186} INFO - Started process (PID=6067) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:32:50.986+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:32:50.987+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:32:50.987+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:32:50.996+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:32:51.009+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:32:51.009+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:32:51.021+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:32:51.020+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:32:51.029+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T22:33:21.417+0000] {processor.py:186} INFO - Started process (PID=6076) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:33:21.418+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:33:21.418+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:33:21.418+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:33:21.426+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:33:21.439+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:33:21.439+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:33:21.451+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:33:21.451+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:33:21.459+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T22:33:51.967+0000] {processor.py:186} INFO - Started process (PID=6085) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:33:51.968+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:33:51.968+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:33:51.968+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:33:51.977+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:33:51.991+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:33:51.991+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:33:52.003+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:33:52.003+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:33:52.014+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T22:34:22.560+0000] {processor.py:186} INFO - Started process (PID=6094) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:34:22.561+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:34:22.562+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:34:22.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:34:22.572+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:34:22.588+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:34:22.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:34:22.601+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:34:22.601+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:34:22.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.057 seconds
+[2024-12-06T22:34:52.963+0000] {processor.py:186} INFO - Started process (PID=6103) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:34:52.965+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:34:52.965+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:34:52.965+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:34:52.974+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:34:52.989+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:34:52.989+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:34:53.002+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:34:53.002+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:34:53.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T22:35:23.511+0000] {processor.py:186} INFO - Started process (PID=6112) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:35:23.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:35:23.513+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:35:23.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:35:23.523+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:35:23.540+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:35:23.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:35:23.554+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:35:23.554+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:35:23.564+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.060 seconds
+[2024-12-06T22:35:54.019+0000] {processor.py:186} INFO - Started process (PID=6121) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:35:54.020+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:35:54.021+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:35:54.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:35:54.032+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:35:54.048+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:35:54.048+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:35:54.063+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:35:54.063+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:35:54.079+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.064 seconds
+[2024-12-06T22:36:24.429+0000] {processor.py:186} INFO - Started process (PID=6136) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:36:24.430+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:36:24.430+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:36:24.430+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:36:24.439+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:36:24.454+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:36:24.454+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:36:24.467+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:36:24.467+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:36:24.476+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2024-12-06T22:36:54.981+0000] {processor.py:186} INFO - Started process (PID=6145) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:36:54.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:36:54.983+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:36:54.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:36:54.992+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:36:55.005+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:36:55.005+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:36:55.018+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:36:55.018+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:36:55.025+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2024-12-06T22:37:25.392+0000] {processor.py:186} INFO - Started process (PID=6154) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:37:25.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:37:25.394+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:37:25.393+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:37:25.402+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:37:25.417+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:37:25.417+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:37:25.429+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:37:25.429+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:37:25.439+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T22:37:55.833+0000] {processor.py:186} INFO - Started process (PID=6163) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:37:55.834+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:37:55.834+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:37:55.834+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:37:55.843+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:37:55.857+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:37:55.857+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:37:55.868+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:37:55.868+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:37:55.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2024-12-06T22:38:26.307+0000] {processor.py:186} INFO - Started process (PID=6172) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:38:26.307+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:38:26.308+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:38:26.308+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:38:26.317+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:38:26.330+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:38:26.330+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:38:26.342+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:38:26.342+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:38:26.351+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2024-12-06T22:38:56.733+0000] {processor.py:186} INFO - Started process (PID=6181) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:38:56.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:38:56.734+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:38:56.734+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:38:56.743+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:38:56.756+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:38:56.756+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:38:56.768+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:38:56.768+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:38:56.778+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.049 seconds
+[2024-12-06T22:39:27.285+0000] {processor.py:186} INFO - Started process (PID=6190) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:39:27.286+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:39:27.287+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:39:27.287+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:39:27.296+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:39:27.311+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:39:27.311+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:39:27.324+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:39:27.324+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:39:27.334+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.053 seconds
+[2024-12-06T22:39:57.689+0000] {processor.py:186} INFO - Started process (PID=6199) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:39:57.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:39:57.690+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:39:57.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:39:57.698+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:39:57.714+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:39:57.713+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:39:57.727+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:39:57.727+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:39:57.737+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.054 seconds
+[2024-12-06T22:40:28.274+0000] {processor.py:186} INFO - Started process (PID=6208) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:40:28.275+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:40:28.276+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:40:28.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:40:28.285+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:40:28.299+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:40:28.298+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:40:28.310+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:40:28.310+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:40:28.320+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2024-12-06T22:40:58.761+0000] {processor.py:186} INFO - Started process (PID=6217) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:40:58.762+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:40:58.762+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:40:58.762+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:40:58.770+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:40:58.784+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:40:58.784+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:40:58.797+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:40:58.796+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:40:58.806+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.049 seconds
+[2024-12-06T22:41:29.289+0000] {processor.py:186} INFO - Started process (PID=6226) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:41:29.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:41:29.291+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:41:29.291+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:41:29.303+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:41:29.317+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:41:29.317+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:41:29.330+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:41:29.330+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:41:29.340+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.056 seconds
+[2024-12-06T22:41:59.740+0000] {processor.py:186} INFO - Started process (PID=6235) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:41:59.741+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:41:59.742+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:41:59.742+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:41:59.750+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:41:59.764+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:41:59.764+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:41:59.777+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:41:59.776+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:41:59.785+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.053 seconds
+[2024-12-06T22:42:30.242+0000] {processor.py:186} INFO - Started process (PID=6244) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:42:30.242+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:42:30.243+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:42:30.243+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:42:30.250+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:42:30.265+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:42:30.265+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:42:30.279+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:42:30.279+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:42:30.288+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2024-12-06T22:43:00.721+0000] {processor.py:186} INFO - Started process (PID=6253) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:43:00.721+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:43:00.722+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:43:00.722+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:43:00.732+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:43:00.746+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:43:00.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:43:00.758+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:43:00.758+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:43:00.768+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T22:43:31.240+0000] {processor.py:186} INFO - Started process (PID=6262) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:43:31.241+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:43:31.242+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:43:31.241+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:43:31.250+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:43:31.263+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:43:31.263+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:43:31.278+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:43:31.278+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:43:31.287+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T22:44:01.667+0000] {processor.py:186} INFO - Started process (PID=6271) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:44:01.668+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:44:01.668+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:44:01.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:44:01.676+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:44:01.690+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:44:01.690+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:44:01.702+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:44:01.702+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:44:01.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.049 seconds
+[2024-12-06T22:44:32.119+0000] {processor.py:186} INFO - Started process (PID=6280) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:44:32.120+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:44:32.121+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:44:32.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:44:32.129+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:44:32.142+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:44:32.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:44:32.154+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:44:32.154+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:44:32.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T22:45:02.551+0000] {processor.py:186} INFO - Started process (PID=6289) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:45:02.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:45:02.552+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:45:02.552+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:45:02.561+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:45:02.574+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:45:02.574+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:45:02.586+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:45:02.585+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:45:02.595+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.049 seconds
+[2024-12-06T22:45:33.020+0000] {processor.py:186} INFO - Started process (PID=6298) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:45:33.021+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:45:33.022+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:45:33.021+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:45:33.032+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:45:33.045+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:45:33.045+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:45:33.058+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:45:33.058+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:45:33.068+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.052 seconds
+[2024-12-06T22:46:03.455+0000] {processor.py:186} INFO - Started process (PID=6307) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:46:03.456+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:46:03.456+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:46:03.456+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:46:03.465+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:46:03.478+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:46:03.478+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:46:03.489+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:46:03.489+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:46:03.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T22:46:33.955+0000] {processor.py:186} INFO - Started process (PID=6316) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:46:33.956+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:46:33.957+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:46:33.957+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:46:33.966+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:46:33.980+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:46:33.979+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:46:33.992+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:46:33.992+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:46:34.000+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2024-12-06T22:47:04.349+0000] {processor.py:186} INFO - Started process (PID=6325) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:47:04.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:47:04.350+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:47:04.350+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:47:04.361+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:47:04.375+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:47:04.375+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:47:04.392+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:47:04.391+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:47:04.401+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.058 seconds
+[2024-12-06T22:47:34.751+0000] {processor.py:186} INFO - Started process (PID=6334) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:47:34.752+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:47:34.752+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:47:34.752+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:47:34.761+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:47:34.776+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:47:34.776+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:47:34.789+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:47:34.789+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:47:34.799+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.052 seconds
+[2024-12-06T22:48:05.170+0000] {processor.py:186} INFO - Started process (PID=6343) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:48:05.171+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:48:05.172+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:48:05.171+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:48:05.179+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:48:05.194+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:48:05.193+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:48:05.207+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:48:05.206+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:48:05.215+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2024-12-06T22:48:35.545+0000] {processor.py:186} INFO - Started process (PID=6352) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:48:35.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:48:35.546+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:48:35.546+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:48:35.554+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:48:35.568+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:48:35.567+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:48:35.578+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:48:35.578+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:48:35.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2024-12-06T22:49:06.055+0000] {processor.py:186} INFO - Started process (PID=6361) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:49:06.056+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:49:06.056+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:49:06.056+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:49:06.064+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:49:06.078+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:49:06.077+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:49:06.090+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:49:06.090+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:49:06.099+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T22:49:36.492+0000] {processor.py:186} INFO - Started process (PID=6370) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:49:36.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:49:36.494+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:49:36.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:49:36.502+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:49:36.515+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:49:36.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:49:36.527+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:49:36.527+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:49:36.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T22:50:07.000+0000] {processor.py:186} INFO - Started process (PID=6379) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:50:07.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:50:07.001+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:50:07.000+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:50:07.010+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:50:07.024+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:50:07.024+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:50:07.037+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:50:07.037+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:50:07.047+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T22:50:37.446+0000] {processor.py:186} INFO - Started process (PID=6388) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:50:37.446+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:50:37.447+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:50:37.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:50:37.455+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:50:37.467+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:50:37.467+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:50:37.478+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:50:37.478+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:50:37.487+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T22:51:07.913+0000] {processor.py:186} INFO - Started process (PID=6397) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:51:07.914+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:51:07.915+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:51:07.914+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:51:07.923+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:51:07.936+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:51:07.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:51:07.948+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:51:07.948+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:51:07.956+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T22:51:38.509+0000] {processor.py:186} INFO - Started process (PID=6406) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:51:38.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:51:38.511+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:51:38.511+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:51:38.521+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:51:38.535+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:51:38.534+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:51:38.547+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:51:38.547+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:51:38.554+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2024-12-06T22:52:09.030+0000] {processor.py:186} INFO - Started process (PID=6415) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:52:09.030+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:52:09.031+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:52:09.031+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:52:09.039+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:52:09.053+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:52:09.053+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:52:09.065+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:52:09.065+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:52:09.075+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2024-12-06T22:52:39.661+0000] {processor.py:186} INFO - Started process (PID=6424) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:52:39.662+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:52:39.663+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:52:39.663+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:52:39.674+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:52:39.693+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:52:39.692+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:52:39.705+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:52:39.705+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:52:39.716+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.062 seconds
+[2024-12-06T22:53:10.112+0000] {processor.py:186} INFO - Started process (PID=6433) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:53:10.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:53:10.113+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:53:10.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:53:10.122+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:53:10.134+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:53:10.134+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:53:10.148+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:53:10.147+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:53:10.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.056 seconds
+[2024-12-06T22:53:40.653+0000] {processor.py:186} INFO - Started process (PID=6442) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:53:40.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:53:40.655+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:53:40.655+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:53:40.665+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:53:40.679+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:53:40.679+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:53:40.693+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:53:40.693+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:53:40.702+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.057 seconds
+[2024-12-06T22:54:11.111+0000] {processor.py:186} INFO - Started process (PID=6451) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:54:11.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:54:11.112+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:54:11.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:54:11.120+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:54:11.134+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:54:11.134+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:54:11.148+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:54:11.147+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:54:11.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T22:54:41.563+0000] {processor.py:186} INFO - Started process (PID=6460) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:54:41.564+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:54:41.565+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:54:41.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:54:41.573+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:54:41.587+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:54:41.587+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:54:41.600+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:54:41.599+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:54:41.609+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.053 seconds
+[2024-12-06T22:55:12.070+0000] {processor.py:186} INFO - Started process (PID=6469) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:55:12.072+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:55:12.074+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:55:12.073+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:55:12.082+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:55:12.096+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:55:12.095+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:55:12.108+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:55:12.108+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:55:12.117+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.054 seconds
+[2024-12-06T22:55:42.620+0000] {processor.py:186} INFO - Started process (PID=6478) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:55:42.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:55:42.621+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:55:42.621+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:55:42.631+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:55:42.644+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:55:42.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:55:42.655+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:55:42.655+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:55:42.662+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2024-12-06T22:56:13.165+0000] {processor.py:186} INFO - Started process (PID=6487) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:56:13.165+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:56:13.166+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:56:13.166+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:56:13.174+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:56:13.187+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:56:13.187+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:56:13.199+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:56:13.199+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:56:13.209+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2024-12-06T22:56:43.603+0000] {processor.py:186} INFO - Started process (PID=6496) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:56:43.604+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:56:43.605+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:56:43.605+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:56:43.615+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:56:43.630+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:56:43.630+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:56:43.642+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:56:43.642+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:56:43.652+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.056 seconds
+[2024-12-06T22:57:14.122+0000] {processor.py:186} INFO - Started process (PID=6505) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:57:14.122+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:57:14.123+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:57:14.123+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:57:14.132+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:57:14.145+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:57:14.145+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:57:14.157+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:57:14.157+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:57:14.166+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2024-12-06T22:57:44.657+0000] {processor.py:186} INFO - Started process (PID=6514) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:57:44.658+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:57:44.658+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:57:44.658+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:57:44.672+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:57:44.687+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:57:44.687+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:57:44.698+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:57:44.698+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:57:44.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.055 seconds
+[2024-12-06T22:58:15.118+0000] {processor.py:186} INFO - Started process (PID=6523) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:58:15.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:58:15.120+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:58:15.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:58:15.129+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:58:15.142+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:58:15.142+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:58:15.155+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:58:15.155+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:58:15.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2024-12-06T22:58:45.615+0000] {processor.py:186} INFO - Started process (PID=6532) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:58:45.616+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:58:45.616+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:58:45.616+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:58:45.625+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:58:45.644+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:58:45.644+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:58:45.663+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:58:45.663+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:58:45.674+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.063 seconds
+[2024-12-06T22:59:16.162+0000] {processor.py:186} INFO - Started process (PID=6541) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:59:16.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:59:16.163+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:59:16.163+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:59:16.176+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:59:16.194+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:59:16.194+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:59:16.211+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:59:16.210+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:59:16.226+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.074 seconds
+[2024-12-06T22:59:46.626+0000] {processor.py:186} INFO - Started process (PID=6550) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:59:46.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T22:59:46.628+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:59:46.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:59:46.639+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T22:59:46.655+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:59:46.655+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T22:59:46.670+0000] {logging_mixin.py:190} INFO - [2024-12-06T22:59:46.669+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T22:59:46.681+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.059 seconds
+[2024-12-06T23:00:17.139+0000] {processor.py:186} INFO - Started process (PID=6559) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:00:17.140+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:00:17.141+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:00:17.140+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:00:17.148+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:00:17.161+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:00:17.160+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:00:17.171+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:00:17.171+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:00:17.179+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2024-12-06T23:00:47.627+0000] {processor.py:186} INFO - Started process (PID=6568) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:00:47.627+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:00:47.628+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:00:47.628+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:00:47.636+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:00:47.649+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:00:47.648+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:00:47.660+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:00:47.660+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:00:47.668+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2024-12-06T23:01:18.127+0000] {processor.py:186} INFO - Started process (PID=6577) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:01:18.128+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:01:18.128+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:01:18.128+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:01:18.136+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:01:18.149+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:01:18.149+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:01:18.160+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:01:18.160+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:01:18.167+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T23:01:48.580+0000] {processor.py:186} INFO - Started process (PID=6586) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:01:48.580+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:01:48.581+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:01:48.581+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:01:48.588+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:01:48.601+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:01:48.601+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:01:48.613+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:01:48.613+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:01:48.620+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2024-12-06T23:02:19.034+0000] {processor.py:186} INFO - Started process (PID=6594) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:02:19.034+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:02:19.035+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:02:19.035+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:02:19.042+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:02:19.055+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:02:19.054+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:02:19.065+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:02:19.065+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:02:19.073+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2024-12-06T23:02:49.497+0000] {processor.py:186} INFO - Started process (PID=6603) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:02:49.498+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:02:49.499+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:02:49.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:02:49.507+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:02:49.519+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:02:49.519+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:02:49.530+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:02:49.530+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:02:49.537+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2024-12-06T23:03:19.937+0000] {processor.py:186} INFO - Started process (PID=6612) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:03:19.938+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:03:19.939+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:03:19.939+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:03:19.947+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:03:19.963+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:03:19.963+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:03:19.976+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:03:19.976+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:03:19.988+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.055 seconds
+[2024-12-06T23:03:50.302+0000] {processor.py:186} INFO - Started process (PID=6621) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:03:50.303+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:03:50.304+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:03:50.304+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:03:50.312+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:03:50.324+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:03:50.324+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:03:50.336+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:03:50.336+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:03:50.344+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2024-12-06T23:04:20.783+0000] {processor.py:186} INFO - Started process (PID=6630) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:04:20.783+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:04:20.784+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:04:20.784+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:04:20.791+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:04:20.804+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:04:20.804+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:04:20.816+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:04:20.816+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:04:20.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2024-12-06T23:04:51.253+0000] {processor.py:186} INFO - Started process (PID=6639) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:04:51.253+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:04:51.254+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:04:51.254+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:04:51.261+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:04:51.272+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:04:51.272+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:04:51.283+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:04:51.283+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:04:51.291+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2024-12-06T23:05:21.715+0000] {processor.py:186} INFO - Started process (PID=6648) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:05:21.715+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:05:21.716+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:05:21.716+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:05:21.723+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:05:21.736+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:05:21.736+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:05:21.747+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:05:21.747+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:05:21.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T23:05:52.322+0000] {processor.py:186} INFO - Started process (PID=6657) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:05:52.323+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:05:52.324+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:05:52.324+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:05:52.333+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:05:52.345+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:05:52.345+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:05:52.357+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:05:52.357+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:05:52.365+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T23:06:22.768+0000] {processor.py:186} INFO - Started process (PID=6666) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:06:22.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:06:22.770+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:06:22.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:06:22.778+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:06:22.793+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:06:22.792+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:06:22.804+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:06:22.804+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:06:22.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2024-12-06T23:06:53.327+0000] {processor.py:186} INFO - Started process (PID=6675) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:06:53.328+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:06:53.329+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:06:53.328+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:06:53.337+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:06:53.351+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:06:53.351+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:06:53.365+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:06:53.365+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:06:53.374+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.051 seconds
+[2024-12-06T23:07:23.878+0000] {processor.py:186} INFO - Started process (PID=6684) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:07:23.879+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:07:23.880+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:07:23.880+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:07:23.889+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:07:23.901+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:07:23.901+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:07:23.914+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:07:23.914+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:07:23.930+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.056 seconds
+[2024-12-06T23:07:54.462+0000] {processor.py:186} INFO - Started process (PID=6693) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:07:54.462+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:07:54.463+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:07:54.463+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:07:54.473+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:07:54.490+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:07:54.490+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:07:54.503+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:07:54.503+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:07:54.513+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.057 seconds
+[2024-12-06T23:08:25.061+0000] {processor.py:186} INFO - Started process (PID=6702) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:08:25.062+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:08:25.063+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:08:25.063+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:08:25.073+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:08:25.087+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:08:25.087+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:08:25.101+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:08:25.100+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:08:25.110+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.052 seconds
+[2024-12-06T23:08:55.653+0000] {processor.py:186} INFO - Started process (PID=6711) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:08:55.654+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:08:55.655+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:08:55.654+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:08:55.677+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:08:55.717+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:08:55.717+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:08:55.732+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:08:55.731+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:08:55.742+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.094 seconds
+[2024-12-06T23:09:26.256+0000] {processor.py:186} INFO - Started process (PID=6720) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:09:26.257+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:09:26.258+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:09:26.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:09:26.267+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:09:26.282+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:09:26.282+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:09:26.293+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:09:26.293+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:09:26.303+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.052 seconds
+[2024-12-06T23:09:56.832+0000] {processor.py:186} INFO - Started process (PID=6729) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:09:56.832+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:09:56.833+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:09:56.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:09:56.844+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:09:56.861+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:09:56.860+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:09:56.873+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:09:56.873+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:09:56.883+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.056 seconds
+[2024-12-06T23:10:27.449+0000] {processor.py:186} INFO - Started process (PID=6738) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:10:27.450+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:10:27.451+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:10:27.450+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:10:27.458+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:10:27.471+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:10:27.471+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:10:27.482+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:10:27.482+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:10:27.489+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T23:10:58.355+0000] {processor.py:186} INFO - Started process (PID=6747) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:10:58.355+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:10:58.356+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:10:58.356+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:10:58.364+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:10:58.378+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:10:58.378+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:10:58.400+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:10:58.400+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:10:58.411+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.060 seconds
+[2024-12-06T23:26:38.595+0000] {processor.py:186} INFO - Started process (PID=6756) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:26:38.596+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:26:38.597+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:26:38.597+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:26:38.606+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:26:38.620+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:26:38.620+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:26:38.632+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:26:38.632+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:26:38.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.050 seconds
+[2024-12-06T23:27:09.112+0000] {processor.py:186} INFO - Started process (PID=6765) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:27:09.113+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:27:09.114+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:27:09.113+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:27:09.120+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:27:09.133+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:27:09.133+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:27:09.143+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:27:09.143+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:27:09.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2024-12-06T23:27:39.624+0000] {processor.py:186} INFO - Started process (PID=6774) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:27:39.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:27:39.626+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:27:39.625+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:27:39.633+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:27:39.646+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:27:39.645+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:27:39.656+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:27:39.656+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:27:39.665+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T23:28:10.117+0000] {processor.py:186} INFO - Started process (PID=6783) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:28:10.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:28:10.119+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:28:10.119+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:28:10.127+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:28:10.139+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:28:10.139+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:28:10.150+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:28:10.150+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:28:10.158+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2024-12-06T23:28:40.606+0000] {processor.py:186} INFO - Started process (PID=6792) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:28:40.606+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:28:40.607+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:28:40.607+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:28:40.615+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:28:40.627+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:28:40.627+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:28:40.638+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:28:40.638+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:28:40.647+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2024-12-06T23:29:11.088+0000] {processor.py:186} INFO - Started process (PID=6801) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:29:11.088+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:29:11.089+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:29:11.089+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:29:11.097+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:29:11.110+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:29:11.110+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:29:11.122+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:29:11.122+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:29:11.131+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2024-12-06T23:29:41.540+0000] {processor.py:186} INFO - Started process (PID=6810) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:29:41.541+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:29:41.541+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:29:41.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:29:41.549+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:29:41.562+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:29:41.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:29:41.572+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:29:41.572+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:29:41.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2024-12-06T23:30:12.079+0000] {processor.py:186} INFO - Started process (PID=6819) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:30:12.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:30:12.081+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:30:12.080+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:30:12.089+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:30:12.101+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:30:12.101+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:30:12.113+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:30:12.113+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:30:12.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2024-12-06T23:30:42.543+0000] {processor.py:186} INFO - Started process (PID=6828) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:30:42.544+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:30:42.544+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:30:42.544+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:30:42.552+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:30:42.565+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:30:42.565+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:30:42.577+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:30:42.577+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:30:42.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T23:31:13.044+0000] {processor.py:186} INFO - Started process (PID=6837) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:31:13.045+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:31:13.046+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:31:13.046+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:31:13.054+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:31:13.067+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:31:13.067+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:31:13.078+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:31:13.078+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:31:13.086+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2024-12-06T23:31:43.530+0000] {processor.py:186} INFO - Started process (PID=6846) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:31:43.531+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:31:43.532+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:31:43.531+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:31:43.539+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:31:43.552+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:31:43.552+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:31:43.563+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:31:43.563+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:31:43.570+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2024-12-06T23:32:14.049+0000] {processor.py:186} INFO - Started process (PID=6855) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:32:14.050+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:32:14.050+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:32:14.050+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:32:14.057+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:32:14.070+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:32:14.070+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:32:14.080+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:32:14.080+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:32:14.088+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.042 seconds
+[2024-12-06T23:32:44.561+0000] {processor.py:186} INFO - Started process (PID=6863) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:32:44.562+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:32:44.563+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:32:44.562+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:32:44.570+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:32:44.582+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:32:44.582+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:32:44.594+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:32:44.594+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:32:44.602+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2024-12-06T23:33:15.111+0000] {processor.py:186} INFO - Started process (PID=6872) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:33:15.112+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:33:15.112+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:33:15.112+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:33:15.120+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:33:15.132+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:33:15.132+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:33:15.143+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:33:15.143+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:33:15.151+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T23:33:45.549+0000] {processor.py:186} INFO - Started process (PID=6881) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:33:45.550+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:33:45.551+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:33:45.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:33:45.559+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:33:45.571+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:33:45.571+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:33:45.582+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:33:45.582+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:33:45.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2024-12-06T23:34:16.018+0000] {processor.py:186} INFO - Started process (PID=6890) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:34:16.019+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:34:16.019+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:34:16.019+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:34:16.027+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:34:16.041+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:34:16.041+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:34:16.052+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:34:16.052+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:34:16.060+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2024-12-06T23:34:46.567+0000] {processor.py:186} INFO - Started process (PID=6899) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:34:46.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:34:46.568+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:34:46.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:34:46.575+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:34:46.588+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:34:46.588+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:34:46.599+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:34:46.599+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:34:46.607+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T23:35:17.061+0000] {processor.py:186} INFO - Started process (PID=6908) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:35:17.061+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:35:17.062+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:35:17.062+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:35:17.069+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:35:17.082+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:35:17.082+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:35:17.093+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:35:17.093+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:35:17.101+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T23:35:47.493+0000] {processor.py:186} INFO - Started process (PID=6917) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:35:47.494+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:35:47.494+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:35:47.494+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:35:47.502+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:35:47.513+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:35:47.513+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:35:47.523+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:35:47.523+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:35:47.531+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T23:36:17.968+0000] {processor.py:186} INFO - Started process (PID=6926) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:36:17.969+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:36:17.969+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:36:17.969+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:36:17.976+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:36:17.989+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:36:17.989+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:36:18.001+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:36:18.001+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:36:18.008+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2024-12-06T23:36:48.531+0000] {processor.py:186} INFO - Started process (PID=6935) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:36:48.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:36:48.533+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:36:48.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:36:48.541+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:36:48.555+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:36:48.555+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:36:48.568+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:36:48.567+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:36:48.576+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.049 seconds
+[2024-12-06T23:37:19.015+0000] {processor.py:186} INFO - Started process (PID=6944) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:37:19.016+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:37:19.016+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:37:19.016+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:37:19.023+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:37:19.039+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:37:19.039+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:37:19.051+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:37:19.051+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:37:19.059+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.048 seconds
+[2024-12-06T23:37:49.484+0000] {processor.py:186} INFO - Started process (PID=6953) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:37:49.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:37:49.485+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:37:49.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:37:49.493+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:37:49.506+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:37:49.506+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:37:49.517+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:37:49.517+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:37:49.524+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.045 seconds
+[2024-12-06T23:38:19.997+0000] {processor.py:186} INFO - Started process (PID=6962) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:38:19.997+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:38:19.998+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:38:19.998+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:38:20.005+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:38:20.018+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:38:20.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:38:20.029+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:38:20.029+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:38:20.037+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds
+[2024-12-06T23:38:50.481+0000] {processor.py:186} INFO - Started process (PID=6971) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:38:50.482+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:38:50.483+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:38:50.482+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:38:50.491+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:38:50.503+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:38:50.503+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:38:50.514+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:38:50.514+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:38:50.522+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T23:39:20.976+0000] {processor.py:186} INFO - Started process (PID=6980) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:39:20.978+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:39:20.979+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:39:20.978+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:39:20.987+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:39:21.002+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:39:21.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:39:21.014+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:39:21.013+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:39:21.024+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.054 seconds
+[2024-12-06T23:39:51.517+0000] {processor.py:186} INFO - Started process (PID=6989) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:39:51.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:39:51.519+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:39:51.519+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:39:51.527+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:39:51.540+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:39:51.539+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:39:51.550+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:39:51.550+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:39:51.559+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.046 seconds
+[2024-12-06T23:40:22.014+0000] {processor.py:186} INFO - Started process (PID=6998) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:40:22.015+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:40:22.015+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:40:22.015+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:40:22.024+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:40:22.036+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:40:22.036+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:40:22.047+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:40:22.047+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:40:22.055+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.044 seconds
+[2024-12-06T23:40:52.801+0000] {processor.py:186} INFO - Started process (PID=7007) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:40:52.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:40:52.803+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:40:52.803+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:40:52.814+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:40:52.831+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:40:52.831+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:40:52.845+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:40:52.845+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:40:52.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.065 seconds
+[2024-12-06T23:41:23.769+0000] {processor.py:186} INFO - Started process (PID=7016) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:41:23.770+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:41:23.771+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:41:23.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:41:23.779+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:41:23.805+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:41:23.805+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:41:23.819+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:41:23.819+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:41:23.828+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.064 seconds
+[2024-12-06T23:41:54.228+0000] {processor.py:186} INFO - Started process (PID=7025) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:41:54.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:41:54.231+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:41:54.230+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:41:54.239+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:41:54.252+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:41:54.251+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:41:54.263+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:41:54.263+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:41:54.270+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.047 seconds
+[2024-12-06T23:59:50.793+0000] {processor.py:186} INFO - Started process (PID=7028) to work on /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:59:50.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_ingestion_local.py for tasks to queue
+[2024-12-06T23:59:50.794+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:59:50.794+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:59:50.802+0000] {processor.py:925} INFO - DAG(s) 'LocalIngestionDag_v02' retrieved from /opt/airflow/dags/data_ingestion_local.py
+[2024-12-06T23:59:50.813+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:59:50.813+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-12-06T23:59:50.824+0000] {logging_mixin.py:190} INFO - [2024-12-06T23:59:50.824+0000] {dag.py:4180} INFO - Setting next_dagrun for LocalIngestionDag_v02 to None, run_after=None
+[2024-12-06T23:59:50.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_ingestion_local.py took 0.043 seconds

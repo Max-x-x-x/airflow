@@ -1,0 +1,23 @@
+[2024-12-09T23:57:00.001+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-09T23:57:00.022+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: homework_dag_v2.delete_dataset scheduled__2022-07-01T00:00:00+00:00 [queued]>
+[2024-12-09T23:57:00.042+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: homework_dag_v2.delete_dataset scheduled__2022-07-01T00:00:00+00:00 [queued]>
+[2024-12-09T23:57:00.045+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-09T23:57:00.090+0000] {taskinstance.py:2889} INFO - Executing <Task(BashOperator): delete_dataset> on 2022-07-01 00:00:00+00:00
+[2024-12-09T23:57:00.106+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=12210) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-09T23:57:00.110+0000] {standard_task_runner.py:72} INFO - Started process 12226 to run task
+[2024-12-09T23:57:00.115+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'homework_dag_v2', 'delete_dataset', 'scheduled__2022-07-01T00:00:00+00:00', '--job-id', '227', '--raw', '--subdir', 'DAGS_FOLDER/homework_dag_v2.py', '--cfg-path', '/tmp/tmpeh5prwlb']
+[2024-12-09T23:57:00.120+0000] {standard_task_runner.py:105} INFO - Job 227: Subtask delete_dataset
+[2024-12-09T23:57:00.241+0000] {task_command.py:467} INFO - Running <TaskInstance: homework_dag_v2.delete_dataset scheduled__2022-07-01T00:00:00+00:00 [running]> on host 39ecaeffba2c
+[2024-12-09T23:57:00.390+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='homework_dag_v2' AIRFLOW_CTX_TASK_ID='delete_dataset' AIRFLOW_CTX_EXECUTION_DATE='2022-07-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2022-07-01T00:00:00+00:00'
+[2024-12-09T23:57:00.395+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-09T23:57:00.406+0000] {subprocess.py:78} INFO - Tmp dir root location: /tmp
+[2024-12-09T23:57:00.409+0000] {subprocess.py:88} INFO - Running command: ['/usr/bin/bash', '-c', 'rm /opt/***/green_tripdata_2022-07.parquet']
+[2024-12-09T23:57:00.423+0000] {subprocess.py:99} INFO - Output:
+[2024-12-09T23:57:00.426+0000] {subprocess.py:110} INFO - Command exited with return code 0
+[2024-12-09T23:57:00.469+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-09T23:57:00.472+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=homework_dag_v2, task_id=delete_dataset, run_id=scheduled__2022-07-01T00:00:00+00:00, execution_date=20220701T000000, start_date=20241209T235700, end_date=20241209T235700
+[2024-12-09T23:57:00.518+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-09T23:57:00.539+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-12-09T23:57:00.546+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

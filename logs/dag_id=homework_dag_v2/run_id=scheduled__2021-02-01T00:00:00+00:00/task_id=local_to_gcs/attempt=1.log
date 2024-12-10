@@ -1,0 +1,20 @@
+[2024-12-09T23:46:07.109+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-12-09T23:46:07.128+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: homework_dag_v2.local_to_gcs scheduled__2021-02-01T00:00:00+00:00 [queued]>
+[2024-12-09T23:46:07.135+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: homework_dag_v2.local_to_gcs scheduled__2021-02-01T00:00:00+00:00 [queued]>
+[2024-12-09T23:46:07.136+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 1
+[2024-12-09T23:46:07.149+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): local_to_gcs> on 2021-02-01 00:00:00+00:00
+[2024-12-09T23:46:07.156+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=11901) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2024-12-09T23:46:07.160+0000] {standard_task_runner.py:72} INFO - Started process 11921 to run task
+[2024-12-09T23:46:07.159+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'homework_dag_v2', 'local_to_gcs', 'scheduled__2021-02-01T00:00:00+00:00', '--job-id', '184', '--raw', '--subdir', 'DAGS_FOLDER/homework_dag_v2.py', '--cfg-path', '/tmp/tmp3g1eqtgj']
+[2024-12-09T23:46:07.167+0000] {standard_task_runner.py:105} INFO - Job 184: Subtask local_to_gcs
+[2024-12-09T23:46:07.231+0000] {task_command.py:467} INFO - Running <TaskInstance: homework_dag_v2.local_to_gcs scheduled__2021-02-01T00:00:00+00:00 [running]> on host 39ecaeffba2c
+[2024-12-09T23:46:07.328+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='homework_dag_v2' AIRFLOW_CTX_TASK_ID='local_to_gcs' AIRFLOW_CTX_EXECUTION_DATE='2021-02-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2021-02-01T00:00:00+00:00'
+[2024-12-09T23:46:07.330+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-12-09T23:46:08.297+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-12-09T23:46:08.305+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-12-09T23:46:08.305+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=homework_dag_v2, task_id=local_to_gcs, run_id=scheduled__2021-02-01T00:00:00+00:00, execution_date=20210201T000000, start_date=20241209T234607, end_date=20241209T234608
+[2024-12-09T23:46:08.345+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-12-09T23:46:08.375+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-12-09T23:46:08.377+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
